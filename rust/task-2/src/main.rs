@@ -25,20 +25,11 @@ fn is_invalid_id(id: u64) -> bool {
             .chunks(allowed_part.len())
             .fold(true, |prev, next| {
                 let str = str::from_utf8(next).unwrap();
-                // println!("{}, {}, {}", id_string, allowed_part, str);
                 let is_equal = str == allowed_part;
                 return prev & is_equal;
             });
 
-        // println!(
-        //     "TEST {}, {}, {}",
-        //     id_string.len(),
-        //     allowed_part.len(),
-        //     chunks
-        // );
-
         if invalid {
-            println!("{}, {}", id_string, allowed_part);
             return true;
         }
     }

@@ -12,7 +12,6 @@ fn count_passes(prev: i16, next: i16) -> i16 {
         passes += 1;
     }
 
-    println!("{}, {}, {}", prev, next, passes);
     return passes;
 }
 
