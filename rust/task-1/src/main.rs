@@ -17,7 +17,7 @@ fn count_passes(prev: i16, next: i16) -> i16 {
 }
 
 fn main() {
-    let file = fs::read_to_string("./input.txt").unwrap();
+    let file = fs::read_to_string("./input_georgi.txt").unwrap();
     let lines: Vec<&str> = file.lines().collect();
     // let lines = vec![
     //     "L68", "L30", "R48", "L5", "R60", "L55", "L1", "L99", "R14", "L82",
