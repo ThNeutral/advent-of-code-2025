@@ -1,0 +1,22 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "elixir/task1"
+        },
+        {
+            "path": "elixir/task2"
+        },
+        {
+            "path": "rust/task-1"
+        },
+        {
+            "path": "rust/task-2"
+        },
+        {
+            "path": "rust/task-3"
+        },
+    ]
+}

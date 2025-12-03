@@ -1,4 +1,4 @@
-use std::{collections::linked_list::ExtractIf, fs};
+use std::fs;
 
 fn is_invalid_id(id: u64) -> bool {
     let id_string = id.to_string();
