@@ -18,5 +18,11 @@
         {
             "path": "rust/task-3"
         },
+        {
+            "path": "rust/task-4"
+        },
+        {
+            "path": "rust/task-5"
+        },
     ]
 }
